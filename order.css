@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+
+}
+/* navbar */
+.nevbar{
+    display: flex;
+    height: 65px;
+    opacity: .9;
+position:sticky;
+top: 0px;
+background-color: black;
+}
+.nevbar::before{
+content: " ";
+background-color: black;
+position: absolute;
+top: 0px;
+    left: 0px;
+height: 10%;
+width: 100%;
+z-index: -1;
+opacity: .5;
+}
+.logo1{
+   
+    height: 65px;
+    width: 100px;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.item{
+    list-style-type: none;}
+   
+
+ul li a{
+
+    text-decoration: none;
+    margin: 5px 10px;
+    padding: 0px 6px;
+    font-size: 1.3rem;
+    color: red;
+}
+ul li a:hover{
+background-color: white;
+border-radius: 20px;
+color: black;
+}
+
+
+/* topimg */
+.top{
+padding: 20px;
+
+}
+
+.topimg{
+    display: flex;
+    flex-direction:row;
+    margin: 0px 30px;
+    
+background: rgb(153, 55, 55);
+}
+.top:hover{
+    transform: scale(1.07);
+}
+
+/* fooditem */
+.food1{
+margin-left: 30px;
+/* padding: 20px; */
+margin-right: 26px;
+}
+
+#foodid{
+display: flex;
+justify-content:space-around ;
+border: 2px solid gray;
+flex-wrap: wrap;
+
+
+}
+.item{
+    padding: 5px;
+    margin-right: 6px;
+    border: 2px solid red;
+}
+
+section div img{
+    height: 160px;
+width: 206px;
+} 
+
